@@ -10,7 +10,6 @@ while True:
         ab, bc, ca = map(int, input("Введите длинны 3х отрезков через пробел:\n").split())
         if ab + bc <= ca or ab + ca <= bc or ca + bc <= ab:
             print("Такой треугольник существовать не может")
-            break
         elif ab == bc == ca:
             print("Треугольник равносторонний")
             break
